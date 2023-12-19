@@ -1,4 +1,3 @@
- Here is a draft README.md file for an edtech homepage:
 
 # EdTech Homepage
 
