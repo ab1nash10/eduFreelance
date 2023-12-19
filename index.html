@@ -3,7 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Final Project</title>
+    <meta
+      name="description"
+      content=" Here is a draft meta description for an edtech company website:
+
+    Thapa EduHub is an innovative education technology company providing online learning platforms and tools to help students and teachers succeed. Our personalized learning software and curriculum allow students to learn at their own pace while providing educators real-time analytics. With research-based instructional design and engaging content, we empower students to take ownership of their education and achieve academic excellence."
+    />
+    <meta
+      name="keywords"
+      content="build website using HtML and CSS , html project , css project , css3 , html5"
+    />
+    <meta name="robots" content="index , follow" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -21,19 +40,21 @@
         <nav class="navbar-component">
           <ul>
             <li class="nav-items">
-              <a class="nav-links" href="#">Home</a>
+              <a class="nav-links" href="/index.html" target="_blank">Home</a>
             </li>
             <li class="nav-items">
-              <a class="nav-links" href="#">about</a>
+              <a class="nav-links" href="about.html" target="_blank">about</a>
             </li>
             <li class="nav-items">
-              <a class="nav-links" href="#">services</a>
+              <a class="nav-links" href="service.html" target="_blank"
+                >services</a
+              >
             </li>
             <li class="nav-items">
-              <a class="nav-links" href="#">blog</a>
+              <a class="nav-links" href="blog.html" target="_blank">blog</a>
             </li>
             <li class="nav-items">
-              <a class="nav-links" href="#">contact</a>
+              <a class="nav-links" href="#section-homePage">contact</a>
             </li>
           </ul>
         </nav>
@@ -57,7 +78,11 @@
               <a href="service.html" class="btn btn-white">Learn With Us</a>
             </div>
           </div>
-          <div class="hero-section-image">
+          <div
+            class="hero-section-image"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <figure>
               <img src="images/main-hero.png" alt="" />
             </figure>
@@ -65,7 +90,7 @@
         </div>
       </div>
 
-      <div class="custom-shape-divider-bottom-1701027425">
+      <div class="custom-shape-divider-bottom-1701408718">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +127,7 @@
       </div>
 
       <div class="container grid grid-three--cols">
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up">
           <div class="icon">
             <img src="images/research.png" alt="thapa-eduhub-research-icon" />
           </div>
@@ -113,7 +138,7 @@
             learn.
           </p>
         </div>
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up" data-aos-delay="300">
           <div class="icon">
             <img src="images/design.png" alt="thapa-eduhub-design-icon" />
           </div>
@@ -123,7 +148,7 @@
             We make sure they work for different ways people like to learn.
           </p>
         </div>
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up" data-aos-delay="600">
           <div class="icon">
             <img src="images/Coding.png" alt="thapa-eduhub-development-icon" />
           </div>
@@ -145,7 +170,247 @@
           discover a variety of courses across different categories.
         </p>
       </div>
+
+      <div class="container grid grid-four--cols">
+        <div class="course-div">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="section-common--title">JS Development</h3>
+          <p>
+            Creating dynamic, interactive web applications for user engagement.
+          </p>
+        </div>
+        <div class="course-div">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="section-common--title">Python</h3>
+          <p>
+            Versatile language for problem-solving and application development.
+          </p>
+        </div>
+        <div class="course-div">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="section-common--title">C++ Development</h3>
+          <p>Powerful, efficient coding language for software development.</p>
+        </div>
+        <div class="course-div">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="section-common--title">Java Development</h3>
+          <p>Cross-platform application development with java programming.</p>
+        </div>
+        <div class="course-div">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="section-common--title">SQL Development</h3>
+          <p>
+            Effective data management and retrieval using SQL database language.
+          </p>
+        </div>
+        <div class="course-div">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="section-common--title">HTML Development</h3>
+          <p>Web content structure with essential markup language.</p>
+        </div>
+        <div class="course-div">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="section-common--title">CSS Development</h3>
+          <p>Styling web elements for visually appealing websites.</p>
+        </div>
+      </div>
     </section>
     <!-- ========== End  course Section ========== -->
+
+    <!-- ========== Start why choose Section ========== -->
+
+    <section class="section-whychoose">
+      <div class="container">
+        <h2 class="common-section-heading">Why choose thapa EduHub</h2>
+        <p class="common-section-subheading">
+          Choose Thapa EduHub for a holistic, enriching learning experience that
+          empowers you to achieve your goals.
+        </p>
+      </div>
+
+      <div class="container grid grid-three--cols">
+        <!-- ? left side of the content -->
+
+        <div class="choose-left--div text-align--right">
+          <div
+            class="why-choose--div"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+          >
+            <p class="common-text--highlight">1</p>
+            <h3 class="section-common--title">Expert Instructors</h3>
+            <p>
+              Learn from experienced teachers who are passionate about sharing
+              knowledge and guiding you toward success in your learning journey.
+            </p>
+          </div>
+
+          <div
+            class="why-choose--div"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+          >
+            <p class="common-text--highlight">2</p>
+            <h3 class="section-common--title">interactive lessons</h3>
+            <p>
+              Engage in hands-on learning experiences that make education fun
+              and memorable. Interactive lessons encourage active participation
+              and deeper understanding.
+            </p>
+          </div>
+          <div
+            class="why-choose--div"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+          >
+            <p class="common-text--highlight">3</p>
+            <h3 class="section-common--title">lifelong learning support</h3>
+            <p>
+              Our commitment to your education doesn't end with a certificate.
+              Receive ongoing support and resources for continuous learning and
+              growth.
+            </p>
+          </div>
+        </div>
+
+        <!-- ? center part of the content -->
+        <div class="choose-center--div" data-aos="zoom-in-up">
+          <figure>
+            <img src="images/mobile.png" alt="mobile-view" />
+          </figure>
+        </div>
+        <!-- ? right side of the content -->
+
+        <div class="choose-right--div text-align--left">
+          <div
+            class="why-choose--div"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+          >
+            <p class="common-text--highlight">4</p>
+            <h3 class="section-common--title">Expert Instructors</h3>
+            <p>
+              Learn from experienced teachers who are passionate about sharing
+              knowledge and guiding you toward success in your learning journey.
+            </p>
+          </div>
+          <div
+            class="why-choose--div"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+          >
+            <p class="common-text--highlight">5</p>
+            <h3 class="section-common--title">Expert Instructors</h3>
+            <p>
+              Learn from experienced teachers who are passionate about sharing
+              knowledge and guiding you toward success in your learning journey.
+            </p>
+          </div>
+          <div
+            class="why-choose--div"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+          >
+            <p class="common-text--highlight">6</p>
+            <h3 class="section-common--title">Expert Instructors</h3>
+            <p>
+              Learn from experienced teachers who are passionate about sharing
+              knowledge and guiding you toward success in your learning journey.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End why choose Section ========== -->
+
+    <!-- ========== Start contact home us Section ========== -->
+
+    <div class="section-homePage" id="section-homePage">
+      <div class="container grid grid-two--cols">
+        <div class="contact-content">
+          <h2 class="contact-title">Let's revolutionize the way you study</h2>
+          <p>Join our free bootcamps to know us better</p>
+          <div class="btn">
+            <a href="contact.html" target="_blank">
+              Start now<i class="fa-solid fa-arrow-circle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-image">
+          <img src="./images/main.png" alt="a guy with a laptop" />
+        </div>
+      </div>
+    </div>
+    <!-- ========== End contact home us Section ========== -->
+
+    <!-- ========== Start footer Section ========== -->
+    <footer>
+      <div class="container grid grid-four--cols">
+        <div class="footer-1--div">
+          <div class="logo-brand">
+            <a href="#" class="footer-subheading" target="_blank"
+              >Thapa EduHub</a
+            >
+            <p>let's revolutionize the way you study with Thapa EduHub</p>
+          </div>
+
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-discord"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-2--div">
+          <p class="footer-subheading">Course</p>
+          <ul>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+          </ul>
+        </div>
+        <div class="footer-3--div">
+          <p class="footer-subheading">Course</p>
+          <ul>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+          </ul>
+        </div>
+        <div class="footer-4--div">
+          <p class="footer-subheading">Course</p>
+          <ul>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+            <li><a href="#" target="_blank">links</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== End footer Section ========== -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
